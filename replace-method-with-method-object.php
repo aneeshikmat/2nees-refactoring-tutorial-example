@@ -6,7 +6,7 @@
 
 // Smell Code
 class WrongExample {
-  public function longMethod(int $valueOne, int $valueTwo, string $valueThree) {
+  public function longMethod(int $valueOne, int $valueTwo) {
     $calculationOne = ($valueOne * 20) - $valueTwo;
     $calculationOTwo = $calculationOne + ($valueTwo - 5);
     $calculationThree = $calculationOne + $calculationOTwo;
@@ -74,5 +74,9 @@ class ReplacedLongMethodToObject {
   }
 }
 
+echo "===============Test Before Refactoring==================" . PHP_EOL;
+$x = new WrongExample();
+echo $x->longMethod(10, 5) . PHP_EOL;
+echo "===============Test After Refactoring==================" . PHP_EOL;
 $x = new Example();
-echo $x->longMethod(10, 5);
+echo $x->longMethod(10, 5) . PHP_EOL;
