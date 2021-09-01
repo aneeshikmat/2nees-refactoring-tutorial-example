@@ -21,7 +21,7 @@ class WrongExample {
 // Code After Refactoring
 class Example {
   public function longMethod(int $valueOne, int $valueTwo): int
-  {
+  { // After refactoring, we just call the new method form new class...
     return (new ReplacedLongMethodToObject($valueOne, $valueTwo))->niceName();
   }
 }
