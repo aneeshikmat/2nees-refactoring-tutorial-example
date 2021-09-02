@@ -55,7 +55,7 @@ class Example {
 
   public function longMethod() {
     if ($this->hasDiscount()) {
-      return $this->calculateDiscount();
+      return $this->calculatePriceWithDiscount();
     }
 
     return $this->calculatePrice();
@@ -80,7 +80,7 @@ class Example {
   /**
    * @return float|int
    */
-  private function calculateDiscount()
+  private function calculatePriceWithDiscount()
   {
     return $this->calculatePrice() - $this->discount / 100;
   }
