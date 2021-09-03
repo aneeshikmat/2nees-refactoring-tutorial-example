@@ -27,5 +27,8 @@
     <li>
       <a href="decompose-conditional.php">مثال عن ال Decompose Conditional</a>
     </li>
+    <li>
+      <a href="extract-class.php">مثال عن ال Extract Class</a>
+    </li>
   </ul>
 </div>
