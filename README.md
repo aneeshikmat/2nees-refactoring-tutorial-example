@@ -24,5 +24,8 @@
     <li>
       <a href="replace-method-with-method-object.php">مثال عن ال Replace Method with Method Object</a>
     </li>
+    <li>
+      <a href="decompose-conditional.php">مثال عن ال Decompose Conditional</a>
+    </li>
   </ul>
 </div>
