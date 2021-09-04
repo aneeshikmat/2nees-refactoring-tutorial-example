@@ -30,5 +30,8 @@
     <li>
       <a href="extract-class.php">مثال عن ال Extract Class</a>
     </li>
+    <li>
+      <a href="extract-subclass.php">مثال عن ال Extract Subclass</a>
+    </li>
   </ul>
 </div>
